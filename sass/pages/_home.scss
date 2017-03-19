@@ -1,0 +1,106 @@
+@import 'setup/colors';
+
+// feed de noticias
+#feed {
+    padding: 0px;
+    padding-top: 25px;
+
+    .feed-item {
+        border-radius: 2px;
+
+        // cabecalho da postagem
+        .panel-heading {
+            background: #fff;
+            padding: 10px;
+            padding-bottom: 0px;
+            border-bottom: 0;
+
+            .action {
+                float: left;
+                margin-left: 10px;
+                display: block;
+                width: calc( 100% - 50px ); 
+                a { font-weight: bold }
+            }
+
+            .date {
+                margin-left: 10px;
+                float: left;
+                display: block;
+                font-size: 12px;
+            }
+
+            .avatar {
+                display: block;
+                width: 35px;
+                img { width: 100% }
+            }
+        }
+
+        // corpo da postagem
+        .panel-body {
+            padding: 10px;
+
+            .like-action {
+                margin-top: 10px;
+                border-bottom: 1px solid $bootstrap-grey;
+                width: calc( 100% + 20px );
+                margin-left: -10px;
+
+                a {
+                    padding-top: 10px !important;
+                }
+            }
+        }
+
+        // rodape da postage,
+        .panel-footer {
+            padding: 10px;
+
+            .likes {
+                padding: 0px 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid $bootstrap-grey;
+                margin-left: -10px;
+                width: calc( 100% + 20px );
+            }
+
+            // comentarios
+            .comment {
+                position: relative;
+
+                .aside {
+                    float: left;
+                    width: 30px;
+                    height: 100% !important;
+
+                    .avatar {
+                        width: 30px;
+                        img { width: 100% }
+                    }
+                }
+                .body {
+                    height: 100%;
+                    float: right;
+                    width: calc( 100% - 30px );
+
+                    .info { 
+                        font-weight: bold;
+                        margin-left: 10px;
+                        font-size: 12px;                        
+                    }
+
+                    p { 
+                        padding: 5px 10px;
+                        text-align: justify;
+                        font-size: 12px;
+                        &::first-letter {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

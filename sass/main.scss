@@ -1,0 +1,15 @@
+@import 'setup/helper';
+@import 'setup/colors';
+
+@import 'partials/header';
+
+@import 'pages/home';
+@import 'pages/projetos';
+
+* {
+    font-family: 'Roboto'
+}
+
+.btn-danger {
+    background: $primary-blue;
+}

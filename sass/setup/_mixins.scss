@@ -1,0 +1,3 @@
+@mixin dark-font( $opacity ) {
+    color: rgba( 0, 0, 0, $opacity );
+}
