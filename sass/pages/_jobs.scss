@@ -1,0 +1,35 @@
+@import '../setup/colors';
+
+// lista de jobs
+#jobs {
+    padding: 0px;
+    padding-top: 25px;
+
+    .job-item {
+        border-radius: 1px;
+
+        .panel-body {
+
+            .header {
+                padding: 0px;
+                
+                .avatar {
+                    width: 40px;
+                    img { width: 100% }
+                }
+                .info {
+                    padding-left: 10px;
+                    width: calc( 100% - 40px );
+                }
+            }
+
+            p {
+                display: block;
+                margin-top: 15px;
+                &::first-letter {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

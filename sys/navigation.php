@@ -7,7 +7,7 @@
     function carregarPagina( $onlyname = false ) {
 
         // todas as paginas do sistema
-        $paginas = array( 'home', 'projetos', 'times' );
+        $paginas = array( 'home', 'projetos', 'times', 'jobs' );
         
         // pagina padrao
         $paginaPadrao = 'home';
