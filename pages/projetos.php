@@ -3,17 +3,35 @@
 <div class="container">
     <div id="projetos" class="col-md-8">
 
+        <div class="actions col-md-12">
+            <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <small class="text-muted">Tipo:</small> <b>Todos</b> <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Todos</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Meus projetos</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Projetos do meu time</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Projeto de clientes</a></li>
+            </ul>
+            </div>
+            
+        </div>
+
         <?PHP for( $i = 0; $i < 10; $i++ ) : ?>
         <div class="projeto col-md-6">
             <div class="projeto-item panel panel-default">
             
                 <div class="panel-heading">
-                    <h3 class="panel-title">
-                        Find2work
-                        <button class="btn btn-xs btn-danger pull-right">
-                            <b><i class="fa fa-eye"></i> Ver projeto</b>
-                        </button>
+                    <h3 class="panel-title pull-left">
+                        <a href="#">Find2work <span class="badge">42</span></a>
                     </h3>
+                    <button class="btn btn-xs btn-danger pull-right">
+                        <b><i class="fa fa-eye"></i> Ver projeto</b>
+                    </button>
                     <div class="clearfix"></div>
                 </div><!-- cabecalho do feed -->
                 

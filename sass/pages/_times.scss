@@ -1,0 +1,28 @@
+@import '../setup/colors';
+
+#times {
+    padding: 0px;
+    padding-top: 25px;
+
+    .time {
+        padding: 0px;
+        
+        .time-item {
+            margin: 10px;
+            border-radius: 1px;
+
+            .list-group {
+                div {
+                    padding: 2px;
+                }
+                .avatar {
+                    img { width: 100% }
+                }
+            }
+        }
+    }
+
+    .actions {
+        margin-bottom: 15px;
+    }
+}

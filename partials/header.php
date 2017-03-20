@@ -27,7 +27,9 @@
 
         <div class="tabs-line">
             <a class="tab <?PHP echo active('home'); ?>" href="<?PHP echo url('home'); ?>">Feed</a>
+            <a class="tab <?PHP echo active('jobs'); ?>" href="<?PHP echo url('jobs'); ?>">Jobs</a>
             <a class="tab <?PHP echo active('projetos'); ?>"  href="<?PHP echo url('projetos'); ?>">Projetos</a>
+            <a class="tab <?PHP echo active('times'); ?>"  href="<?PHP echo url('times'); ?>">Times</a>
         </div><!-- barras de navegacao -->
 
     </div>

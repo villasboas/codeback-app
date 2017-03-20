@@ -1,9 +1,12 @@
 @import "../setup/colors";
 
 #projetos {
-
     padding: 0px;
     padding-top: 25px;
+
+    .actions {
+        margin-bottom: 15px;
+    }
 
     .projeto {
         padding: 0px;
