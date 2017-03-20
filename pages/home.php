@@ -9,7 +9,7 @@
             
             <div class="panel-heading">
                 <div class="avatar pull-left">
-                    <img src="http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg" alt="">
+                    <img src="img/avatar.jpg" alt="">
                 </div>
                 <span class="action">
                     <a href="#">Gustavo Vilas Boas</a>
@@ -47,7 +47,7 @@
                     <div class="comment">
                         <div class="aside">
                             <div class="avatar">
-                                <img src="http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg" alt="">                                
+                                <img src="img/avatar.jpg" alt="">                                
                             </div>
                         </div>
                         <div class="body">

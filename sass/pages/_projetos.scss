@@ -1,0 +1,16 @@
+@import "../setup/colors";
+
+#projetos {
+
+    padding: 0px;
+    padding-top: 25px;
+
+    .projeto {
+        padding: 0px;
+        
+        .projeto-item {
+            margin: 10px;
+            border-radius: 1px;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 <?php
 
     // url atual do site
-    define( 'URL', 'http://localhost/codeback/' );
+    define( 'URL', 'http://localhost/codeback/codeback-app/' );
 
     // pega a pagina que deve ser carregada
     function carregarPagina( $onlyname = false ) {

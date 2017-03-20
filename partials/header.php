@@ -12,7 +12,7 @@
             
             <div class="col-xs-3 col-sm-5 align-right">
                 <div class="item avatar z-depth-1">
-                    <img src="http://www.american.edu/uploads/profiles/large/chris_palmer_profile_11.jpg" alt="">
+                    <img src="img/avatar.jpg" alt="">
                 </div>
                 <button class="btn btn-danger hidden-xs z-depth-1">
                     <i class="fa fa-plus"></i> <b>Novo projeto</b>
